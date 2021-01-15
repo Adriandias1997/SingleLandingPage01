@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header id="navbar">
+
+            <a href="#" class="logo">Good<span>Foods</span></a>
+            <ul>
+                <li>
+                    <a href="#" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+            </ul>
+            <span class="menuIcon" onclick="menuToggle();"></span>
+        </header>
+        <div class="content">
+            <div class="bannerText" id="slideshowText">
+                <div class="active">
+                    <h2>
+                        EAT Healthy <br> Stay Healthy
+                    </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, rem. At voluptatibus delectus vero pariatur consequatur reiciendis fugiat est animi saepe, nobis quas illum quidem. Minus eaque vel quidem omnis.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <h2>
+                        Love Veggies <br> Hate Oils
+                    </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, rem. At voluptatibus delectus vero pariatur consequatur reiciendis fugiat est animi saepe, nobis quas illum quidem. Minus eaque vel quidem omnis.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <h2>
+                        Good Mood <br> Stay Fit
+                    </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, rem. At voluptatibus delectus vero pariatur consequatur reiciendis fugiat est animi saepe, nobis quas illum quidem. Minus eaque vel quidem omnis.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="bannerImg" id="slideshow">
+                <img src="img/vegetable-salad-on-white-plate-2862154.jpg" class="active" alt="">
+                <img src="img/appetizer-close-up-cuisine-delicious-434258.jpg" alt="">
+                <img src="img/sliced-tomato-and-avocado-on-white-plate-1143754.jpg" alt="">
+
+            </div>
+
+        </div>
+        <div class="icons">
+            <ul class="sci">
+                <li>
+                    <a href="#"><img src="img/facebook-logo.png" alt=""></a>
+                    <a href="#"><img src="img/instagram.png" alt=""></a>
+                    <a href="#"><img src="img/twitter.png" alt=""></a>
+                </li>
+            </ul>
+            <ul class="controls">
+                <li>
+                    <a><img src="img/left-chevron.png" onclick="preSlide();preSlideText();" alt=""></a>
+                </li>
+                <li>
+                    <a><img src="img/button.png" onclick="nextSlide();nextSlideText()" alt=""></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+
+</html>
